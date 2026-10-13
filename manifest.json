@@ -1,0 +1,11 @@
+{
+    "display_name": "Chat Repetition Refactor",
+    "js": "index.js",
+    "css": "style.css",
+    "requires": [],
+    "optional": [],
+    "author": "bbonvi , THEJACKALS",
+    "homePage": "https://github.com/bbonvi/SillyTavern-Repetition-Inspector",
+    "version": "2.0.1",
+    "auto_update": true
+}
