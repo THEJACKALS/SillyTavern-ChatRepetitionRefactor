@@ -1,6 +1,7 @@
 # Chat Repetition Refactor
 
-SillyTavern extension for detecting and repairing repeated sentences or sequences in chat.
+Chat Repetition Refactor is a SillyTavern extension that detects repeated phrases in character messages and organizes them into manageable sequence groups. It provides text-based filtering, occurrence-level selection, message locating, safe auto-cleaning, manual rewriting, and AI-generated paragraph rewriting with a review step before applying changes.
+The extension supports multiple AI backends, including LM Studio, AI Horde, Ollama, OpenAI-compatible APIs, llama.cpp, KoboldCpp, Aphrodite, and Mancer. It is designed for large chats where repeated content can be difficult to locate and repair manually.
 
 This is a modified standalone version based on the GPL-3.0 parent project [SillyTavern-Repetition-Inspector](https://github.com/bbonvi/SillyTavern-Repetition-Inspector). The extension name, interface, detection workflow, repair workflow, and AI backend support have been refactored and extended.
 
