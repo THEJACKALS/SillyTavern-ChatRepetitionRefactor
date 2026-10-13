@@ -6,6 +6,7 @@ The extension supports multiple AI backends, including LM Studio, AI Horde, Olla
 This is a modified standalone version based on the GPL-3.0 parent project [SillyTavern-Repetition-Inspector](https://github.com/bbonvi/SillyTavern-Repetition-Inspector). The extension name, interface, detection workflow, repair workflow, and AI backend support have been refactored and extended.
 
 ## Features
+<img width="550" height="58" alt="image" src="https://github.com/user-attachments/assets/fe78bf24-a9f5-435f-9fb5-1858ce02aea4" />
 
 - Scan the active chat for three categories:
   - **Longer sequences** — 10 words or more.
@@ -23,8 +24,13 @@ This is a modified standalone version based on the GPL-3.0 parent project [Silly
 ## Repair behavior
 
 - **Auto-Clean** — safely cleans selected repeated occurrences.
+<img width="544" height="79" alt="image" src="https://github.com/user-attachments/assets/788ec129-c357-472f-9c04-7b145f7bf737" />
+
 - **Rewrite** — opens selected occurrences for manual editing.
+<img width="546" height="331" alt="image" src="https://github.com/user-attachments/assets/b3d1404e-129b-4792-bb0b-9292ab39047f" />
+
 - **Rewrite (AI Generated)** — regenerates only paragraphs containing selected repetitions, then opens a review before replacement.
+![Uploading image.png…]()
 
 AI Generated provides separate profiles for LM Studio, AI Horde, Ollama, OpenAI-compatible, llama.cpp, KoboldCpp, Aphrodite, and Mancer. Use `Test Connection` and `Refresh Models` to verify backends and available models.
 
